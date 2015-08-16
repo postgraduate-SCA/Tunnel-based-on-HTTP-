@@ -1,0 +1,52 @@
+﻿生成启动时间为 2015/8/6 15:21:25。
+     1>项目“E:\F\VSprojection\毕设源代码\hts\hts\hts.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\hts.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt common.cpp hts.cpp http.cpp tunnel.cpp
+         tunnel.cpp
+     1>e:\f\vsprojection\毕设源代码\hts\hts\tunnel.cpp(654): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\f\vsprojection\毕设源代码\hts\hts\tunnel.cpp(593): warning C4101: “n”: 未引用的局部变量
+         http.cpp
+     1>e:\f\vsprojection\毕设源代码\hts\hts\http.cpp(34): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\f\vsprojection\毕设源代码\hts\hts\http.cpp(39): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\f\vsprojection\毕设源代码\hts\hts\http.cpp(208): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\f\vsprojection\毕设源代码\hts\hts\http.cpp(292): warning C4101: “tmp”: 未引用的局部变量
+     1>e:\f\vsprojection\毕设源代码\hts\hts\http.cpp(708): warning C4101: “str”: 未引用的局部变量
+         hts.cpp
+     1>e:\f\vsprojection\毕设源代码\hts\hts\hts.cpp(36): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>e:\f\vsprojection\毕设源代码\hts\hts\hts.cpp(38): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>e:\f\vsprojection\毕设源代码\hts\hts\hts.cpp(40): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(304) : 参见“scanf”的声明
+         common.cpp
+         正在生成代码...
+     1>e:\f\vsprojection\毕设源代码\hts\hts\tunnel.cpp(362): warning C4715: “tunnel_write_request”: 不是所有的控件路径都返回值
+     1>e:\f\vsprojection\毕设源代码\hts\hts\tunnel.cpp(248): warning C4715: “tunnel_out_connect”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\hts.exe.embed.manifest.res" Debug\hts_manifest.rc 
+       Link:
+         D:\Program\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\F\VSprojection\毕设源代码\hts\Debug\hts.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hts.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\F\VSprojection\毕设源代码\hts\Debug\hts.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\F\VSprojection\毕设源代码\hts\Debug\hts.lib" /MACHINE:X86 Debug\hts.exe.embed.manifest.res
+         Debug\common.obj
+         Debug\hts.obj
+         Debug\http.obj
+         Debug\tunnel.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\hts.exe.embed.manifest" /manifest Debug\hts.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         hts.vcxproj -> E:\F\VSprojection\毕设源代码\hts\Debug\hts.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\hts.unsuccessfulbuild”。
+         正在对“Debug\hts.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\F\VSprojection\毕设源代码\hts\hts\hts.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.00

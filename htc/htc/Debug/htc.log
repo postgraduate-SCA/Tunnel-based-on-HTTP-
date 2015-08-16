@@ -1,0 +1,53 @@
+﻿生成启动时间为 2015/8/6 15:20:36。
+     1>项目“E:\F\VSprojection\毕设源代码\htc\htc\htc.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\htc.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt common.cpp htc.cpp http.cpp tunnel.cpp
+         tunnel.cpp
+     1>e:\f\vsprojection\毕设源代码\htc\htc\tunnel.cpp(660): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\f\vsprojection\毕设源代码\htc\htc\tunnel.cpp(603): warning C4101: “n”: 未引用的局部变量
+         http.cpp
+     1>e:\f\vsprojection\毕设源代码\htc\htc\http.cpp(21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\f\vsprojection\毕设源代码\htc\htc\http.cpp(34): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\f\vsprojection\毕设源代码\htc\htc\http.cpp(39): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\f\vsprojection\毕设源代码\htc\htc\http.cpp(209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\f\vsprojection\毕设源代码\htc\htc\http.cpp(295): warning C4101: “tmp”: 未引用的局部变量
+         htc.cpp
+     1>e:\f\vsprojection\毕设源代码\htc\htc\htc.cpp(60): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>e:\f\vsprojection\毕设源代码\htc\htc\htc.cpp(62): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>e:\f\vsprojection\毕设源代码\htc\htc\htc.cpp(64): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\vc\include\stdio.h(304) : 参见“scanf”的声明
+         common.cpp
+         正在生成代码...
+     1>e:\f\vsprojection\毕设源代码\htc\htc\tunnel.cpp(380): warning C4715: “tunnel_write_request”: 不是所有的控件路径都返回值
+     1>e:\f\vsprojection\毕设源代码\htc\htc\tunnel.cpp(255): warning C4715: “tunnel_out_connect”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\htc.exe.embed.manifest.res" Debug\htc_manifest.rc 
+       Link:
+         D:\Program\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\F\VSprojection\毕设源代码\htc\Debug\htc.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\htc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\F\VSprojection\毕设源代码\htc\Debug\htc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\F\VSprojection\毕设源代码\htc\Debug\htc.lib" /MACHINE:X86 Debug\htc.exe.embed.manifest.res
+         Debug\common.obj
+         Debug\htc.obj
+         Debug\http.obj
+         Debug\tunnel.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\htc.exe.embed.manifest" /manifest Debug\htc.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         htc.vcxproj -> E:\F\VSprojection\毕设源代码\htc\Debug\htc.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\htc.unsuccessfulbuild”。
+         正在对“Debug\htc.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\F\VSprojection\毕设源代码\htc\htc\htc.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.37
